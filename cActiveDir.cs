@@ -86,8 +86,6 @@ namespace AD.Classes
             //VoiceTelephoneNumber = (555)555 - 9959
         }
 
-        // public static string adDisplayName() { return System.DirectoryServices.AccountManagement.UserPrincipal.Current.DisplayName; }
-
         public static UserPrincipal adGetUserPrincipalBySAMAccountName(string sAMAccountName)
         {
             // set up domain context
